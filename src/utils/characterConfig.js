@@ -1,0 +1,80 @@
+// src/utils/characterConfig.js
+
+export const characters = {
+    samuraiMack: {
+      name: 'Samurai Mack',
+      sprites: {
+        idle: { imageSrc: require('../assets/samuraiMack/Idle.png'), framesMax: 8 },
+        run: { imageSrc: require('../assets/samuraiMack/Run.png'), framesMax: 8 },
+        jump: { imageSrc: require('../assets/samuraiMack/Jump.png'), framesMax: 2 },
+        fall: { imageSrc: require('../assets/samuraiMack/Fall.png'), framesMax: 2 },
+        attack1: { imageSrc: require('../assets/samuraiMack/Attack1.png'), framesMax: 6 },
+        takeHit: { imageSrc: require('../assets/samuraiMack/Take Hit - white silhouette.png'), framesMax: 4 },
+        death: { imageSrc: require('../assets/samuraiMack/Death.png'), framesMax: 6 },
+      },
+      attackBox: { offset: { x: 100, y: 50 }, width: 160, height: 50 },
+      scale: 2.5,
+      offset: { x: 215, y: 157 },
+    },
+    eWizard: {
+      name: 'Evil Wizard',
+      sprites: {
+        idle: { imageSrc: require('../assets/ewizard/Idle.png'), framesMax: 8 },
+        run: { imageSrc: require('../assets/ewizard/Run.png'), framesMax: 8 },
+        jump: { imageSrc: require('../assets/ewizard/Jump.png'), framesMax: 2 },
+        fall: { imageSrc: require('../assets/ewizard/Fall.png'), framesMax: 2 },
+        attack1: { imageSrc: require('../assets/ewizard/Attack1.png'), framesMax: 8 },
+        takeHit: { imageSrc: require('../assets/ewizard/Take hit.png'), framesMax: 3 },
+        death: { imageSrc: require('../assets/ewizard/Death.png'), framesMax: 7 },
+      },
+      attackBox: { offset: { x: 100, y: 50 }, width: 160, height: 50 },
+      scale: 2.5,
+      offset: { x: 300, y: 260 },
+    },
+    wizard: {
+        name: 'Wizard',
+        sprites: {
+          idle: { imageSrc: require('../assets/wizard/Idle.png'), framesMax: 6 },
+          run: { imageSrc: require('../assets/wizard/Run.png'), framesMax: 8 },
+          jump: { imageSrc: require('../assets/wizard/Jump.png'), framesMax: 2 },
+          fall: { imageSrc: require('../assets/wizard/Fall.png'), framesMax: 2 },
+          attack1: { imageSrc: require('../assets/wizard/Attack1.png'), framesMax: 8 },
+          takeHit: { imageSrc: require('../assets/wizard/Hit.png'), framesMax: 4 },
+          death: { imageSrc: require('../assets/wizard/Death.png'), framesMax: 7 },
+        },
+        attackBox: { offset: { x: 100, y: 50 }, width: 160, height: 50 },
+        scale: 1.5,
+        offset: { x: 0, y: 60 },
+      },
+    kenji: {
+      name: 'Kenji',
+      sprites: {
+        idle: { imageSrc: require('../assets/kenji/Idle.png'), framesMax: 4 },
+        run: { imageSrc: require('../assets/kenji/Run.png'), framesMax: 8 },
+        jump: { imageSrc: require('../assets/kenji/Jump.png'), framesMax: 2 },
+        fall: { imageSrc: require('../assets/kenji/Fall.png'), framesMax: 2 },
+        attack1: { imageSrc: require('../assets/kenji/Attack1.png'), framesMax: 4 },
+        takeHit: { imageSrc: require('../assets/kenji/Take hit.png'), framesMax: 3 },
+        death: { imageSrc: require('../assets/kenji/Death.png'), framesMax: 7 },
+      },
+      attackBox: { offset: { x: -170, y: 50 }, width: 170, height: 50 },
+      scale: 2.5,
+      offset: { x: 215, y: 167 },
+    },
+    minotaur: {
+        name: 'Minotaur',
+        sprites: {
+          idle: { imageSrc: require('../assets/minotaur/Idle3.png'), framesMax: 3 },
+          run: { imageSrc: require('../assets/minotaur/Run.png'), framesMax: 5 },
+          jump: { imageSrc: require('../assets/minotaur/Jump.png'), framesMax: 2 },
+          fall: { imageSrc: require('../assets/minotaur/Fall.png'), framesMax: 2 },
+          attack1: { imageSrc: require('../assets/minotaur/Attack1.png'), framesMax: 9 },
+          takeHit: { imageSrc: require('../assets/minotaur/Hit.png'), framesMax: 3 },
+          death: { imageSrc: require('../assets/minotaur/Death.png'), framesMax: 6 },
+        },
+        attackBox: { offset: { x: 50, y: 0 }, width: 170, height: 50 },
+        scale: 3,
+        offset: { x: 30, y: 30 },
+      },
+  };
+  
